@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
+
+:root {
+  --blue: #044bd9;
+  --blue-dark: #0339a6;
+  --blue-more-dark: #034aa6;
+  --sky-blue: #66b1f2;
+  --white: #f2f2f2;
+  --black: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Kavoon", cursive;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* header {
+
+} */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img {
+  width: 70%;
+}
+
+.nav-ingresar {
+  position: relative;
+  top: -170px;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.nav-ingresar ul {
+  list-style: none;
+  
+}
+
+.nav-ingresar ul li {
+  font-weight: 700;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 4px;
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1.5px solid var(--blue);
+  cursor: pointer;
+}
+
+.nav-ingresar ul li:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 4px;
+  border: 1.5px solid var(--blue);
+  cursor: pointer;
+}
+
+.redes-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ico-container .txt-ico {
+  opacity: 0;
+}
+
+.ico-container:hover .txt-ico {
+  opacity: 1;
+
+}
+
+.ico-container .ico {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: all 1.3s ease;
+  color: var(--blue);
+}
+
+.txt-ico {
+  font-weight: 500;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 10px;
+  color: #044bd9;
+}
+
