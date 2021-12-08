@@ -30,15 +30,18 @@ body {
 .logo-container {
   display: flex;
   justify-content: center;
+  border: 1.5px solid var(--blue);
+  height: 450px !important;
+  margin-top: 10px;
 }
 
 .logo-container img {
-  width: 70%;
+  width: 80%;
 }
 
 .nav-ingresar {
   position: relative;
-  top: -170px;
+  top: -150px;
   display: flex;
   justify-content: center;
   z-index: 100;
@@ -46,7 +49,6 @@ body {
 
 .nav-ingresar ul {
   list-style: none;
-  
 }
 
 .nav-ingresar ul li {
@@ -74,6 +76,7 @@ body {
 .redes-container {
   display: flex;
   justify-content: center;
+  width: 100%;
   gap: 10px;
 }
 
@@ -83,7 +86,6 @@ body {
 
 .ico-container:hover .txt-ico {
   opacity: 1;
-
 }
 
 .ico-container .ico {
@@ -102,4 +104,3 @@ body {
   font-size: 10px;
   color: #044bd9;
 }
-
